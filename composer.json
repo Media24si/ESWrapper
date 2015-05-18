@@ -3,7 +3,7 @@
   "description": "Laravel 5 Elasticsearch-PHP 2 wrapper",
   "license": "MIT",
   "keywords": ["laravel", "laravel 5", "elasticsearch"],
-  "homepage": "https://github.com/Media24si/ApiResource",
+  "homepage": "https://github.com/Media24si/ESWrapper",
   "authors": [
     {
       "name": "Bostjan Oblak",

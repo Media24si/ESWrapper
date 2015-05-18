@@ -1,4 +1,4 @@
-# Api Resource
+# ElasticSearch-php 2 Facade
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
