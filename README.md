@@ -15,7 +15,7 @@ $ composer require media24si/eswrapper
 Register the ESWrapperServiceProvider to the providers array in `config/app.php`
 
 ``` php
-'Media24si\ApiResource\ESWrapperServiceProvider',
+'Media24si\ESWrapper\ESWrapperServiceProvider',
 ```
 
 Publish vendor files (config file):
