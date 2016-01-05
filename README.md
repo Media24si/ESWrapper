@@ -15,18 +15,18 @@ $ composer require media24si/eswrapper
 Register the ESWrapperServiceProvider to the providers array in `config/app.php`
 
 ``` php
-'Media24si\ESWrapper\ESWrapperServiceProvider',
+Media24si\ESWrapper\ESWrapperServiceProvider::class,
 ```
 
 Publish vendor files (config file):
 ``` bash
-$ art vendor:publish
+$ php artisan vendor:publish
 ```
 
 **Optional**
 Register the facade in `config/app.php`:
 ``` php
-'Elastic' => 'Media24si\ESWrapper\Facades\ESWrapper'
+'Elastic' => Media24si\ESWrapper\Facades\ESWrapper::class
 ```
 
 ## Usage
